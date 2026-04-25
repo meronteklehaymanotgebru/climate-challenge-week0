@@ -54,7 +54,7 @@ climate-challenge-week0/
 git clone https://github.com/YOUR_USERNAME/climate-challenge-week0.git
 cd climate-challenge-week0
 
-#### 2. Set Up Virtual Environment
+**#### 2. Set Up Virtual Environment**
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -65,15 +65,15 @@ source venv/bin/activate
 # Activate (Windows)
 venv\Scripts\activate
 
-#### 3. Install Dependencies
+**#### 3. Install Dependencies**
 ```bash
 pip install -r requirements.txt
-
-#### 4. Run Jupyter Notebooks
+**
+#### 4. Run Jupyter Notebooks**
 ```bash
 jupyter notebook
-
-#### 5. Launch Streamlit Dashboard
+**
+#### 5. Launch Streamlit Dashboard**
 ```bash
 streamlit run app/main.py
 
